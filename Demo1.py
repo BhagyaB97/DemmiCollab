@@ -1,4 +1,4 @@
-x= input("Enter the number : ")
+x= int(input("Enter the number : "))
 print ("The Number is:", x)
 flag = False
 if x > 1:
@@ -18,6 +18,7 @@ else:
     
 # Python program to find the factorial of a number provided by the user.
 # check if the number is negative, positive or zero
+factorial=1
 if x < 0:
    print("Sorry, factorial does not exist for negative numbers")
 elif x == 0:
@@ -27,7 +28,7 @@ else:
        factorial = factorial*i
    print("The factorial of",x,"is",factorial)
   
-  if (x %2 )==0:
+if (x %2 )==0:
   print ( x,"The Number is even")
 else:
   print (x,"The Number is odd")
